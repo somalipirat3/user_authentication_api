@@ -35,6 +35,4 @@ CMD ["rails", "server","-e", "production","-b", "0.0.0.0","-p","3000"]
 
 # expose the container on port 3000
 EXPOSE 3000
-
-
 # tracy service issue
