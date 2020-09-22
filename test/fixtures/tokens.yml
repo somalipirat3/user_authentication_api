@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: false
+  key: MyString
+  exp: 2020-09-22 11:56:57
+
+two:
+  status: false
+  key: MyString
+  exp: 2020-09-22 11:56:57
