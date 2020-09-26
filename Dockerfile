@@ -2,7 +2,7 @@
 FROM ruby:2.6.5
 
 # install dependencies on the machine
-RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs libsodium
+RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
 # install gems
 RUN gem install bundler
 RUN gem install puma
