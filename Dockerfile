@@ -2,10 +2,11 @@
 FROM ruby:2.6.5
 
 # install dependencies on the machine
-RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
+RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs libsodium
 # install gems
 RUN gem install bundler
 RUN gem install puma
+
 # set environment veriables 
 ENV RAILS_ROOT /api
 ENV SECRET_KEY_BASE dfd6dcf014bc92d8476bb04364e93c900b3742c5e2b8763b6d45fb2b6cc3030e02f292d2de49faa5dc2b805167b8b1aee909e890fc907c8edae9417f91afabe8
