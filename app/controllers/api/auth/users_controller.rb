@@ -1,4 +1,4 @@
-class Api::Auth::SessionsController < ApplicationController
+class Api::Auth::UsersController < ApplicationController
 
     def register
         # register_new user
