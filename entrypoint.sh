@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -eo pipefail
 
 # Remove server pid if any
 rm -f /api/tmp/pids/server.pid
