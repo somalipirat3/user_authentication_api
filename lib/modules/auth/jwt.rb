@@ -1,4 +1,4 @@
-module Auth
+module Auth::Jwt
     PRIVATE_KEY = RbNaCl::Signatures::Ed25519::SigningKey.new('abcdefghijklmnopqrstuvwxyzABCDEF')
     PUBLIC_KEY = PRIVATE_KEY.verify_key
 
