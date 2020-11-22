@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2020_09_22_111347) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "tokens", force: :cascade do |t|
     t.boolean "status"
     t.string "key"
